@@ -1,0 +1,24 @@
+import { Routes, Route } from 'react-router-dom'
+import Navbar from './components/Navbar'
+import Home from './pages/Home'
+import About from './pages/About'
+import GettingStarted from './pages/GettingStarted'
+import PuppyRaisers from './pages/PuppyRaisers'
+import ContactUs from './pages/ContactUs'
+
+function App() {
+  return (
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/getting-started" element={<GettingStarted />} />
+        <Route path="/puppy-raisers" element={<PuppyRaisers />} />
+        <Route path="/contact-us" element={<ContactUs />} />
+      </Routes>
+    </>
+  )
+}
+
+export default App
