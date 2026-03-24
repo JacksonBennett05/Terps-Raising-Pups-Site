@@ -1,8 +1,8 @@
 function GettingStarted() {
   return (
-    <>
-      <h1>Getting Started</h1>
-    </>
+    <main className="started">
+      <h1>Volunteer</h1>
+    </main>
   )
 
 }

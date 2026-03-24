@@ -48,12 +48,8 @@
   
   background: none;
   border: 3px solid black;
-  outline: none;
-  box-shadow: none;
-
   font-size: 1.4rem;
-  color: #b08b57;
-  font-style: italic;
+  color: #ffd200;
   cursor: pointer;
 
   margin-top: 1.5rem;
@@ -65,4 +61,10 @@
 .about-page button:hover {
   background-color: black;
   color: white;
+}
+
+.about-page .second-row {
+  align-items: center;
+  text-align: center;
+  width: 100%;
 }

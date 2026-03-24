@@ -30,8 +30,8 @@ function About() {
          clicks. Even better is the pride you feel when that puppy graduates and goes on to fulfill their purpose. 
         </p>
         <p>
-        So many of our handlers are repeat puppy raisers because once you raise one you can't imagine not 
-        raising another.
+          So many of our handlers are repeat puppy raisers because once you raise one you can't imagine not 
+          raising another.
         </p>
       </div>
     </main>

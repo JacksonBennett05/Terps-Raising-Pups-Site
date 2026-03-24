@@ -1,0 +1,25 @@
+.footer{
+  position: relative;
+  height: 90px;
+  background-color: #e10600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+}
+
+.footer-line{
+  display: flex;
+  justify-content: center;
+  gap: 20rem;
+}
+
+.trp-footer {
+  color: #ffd200;
+  font-size: .75rem;
+}
+
+.gdf-footer {
+  color: #ffd200;
+  font-size: .75rem;
+}
