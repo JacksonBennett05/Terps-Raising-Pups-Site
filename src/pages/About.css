@@ -1,0 +1,68 @@
+.about-page {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  min-height: 500px;
+  background-color: #EDE8DF;
+}
+
+
+.about-page .left-img {
+  width: 50%;
+  height: 60vh;
+  object-fit: cover;
+}
+
+
+
+.about-page .right-side {
+  width: 50%;
+  background-color: #e10600;
+  color: #f5f1e8;
+  height: 60vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 3rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.about-page h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+
+.about-page p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  max-width: 500px;
+  margin-bottom: 1rem;
+}
+
+.about-page button {
+  
+  background: none;
+  border: 3px solid black;
+  outline: none;
+  box-shadow: none;
+
+  font-size: 1.4rem;
+  color: #b08b57;
+  font-style: italic;
+  cursor: pointer;
+
+  margin-top: 1.5rem;
+  padding: .5rem;
+  font-family: inherit;
+  transition: all 0.25s ease; 
+}
+
+.about-page button:hover {
+  background-color: black;
+  color: white;
+}

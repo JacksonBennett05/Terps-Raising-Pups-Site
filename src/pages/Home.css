@@ -1,6 +1,6 @@
 .home-page {
   min-height: 100vh;
-  background-color: #f5f1e8;
+  background-color: #EDE8DF;
   padding: 0rem 0;
 }
 
@@ -22,7 +22,6 @@
 .left-img {
   width: 50%;
   height: 90%;
-  /* object-fit: cover; */
   display: block;
 }
 
