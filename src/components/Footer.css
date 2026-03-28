@@ -17,9 +17,21 @@
 .trp-footer {
   color: #ffd200;
   font-size: .75rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* space between text and icons */
 }
 
 .gdf-footer {
   color: #ffd200;
   font-size: .75rem;
+}
+
+.facebook-btn1,
+.instagram-btn1 {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
 }
