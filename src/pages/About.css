@@ -64,7 +64,7 @@
 }
 
 .about-page .second-row {
-  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
-  width: 100%;
 }
