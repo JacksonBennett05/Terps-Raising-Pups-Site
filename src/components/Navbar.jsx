@@ -18,8 +18,15 @@ function Navbar() {
             <Link to='/our-leaders'>Our Leaders</Link>
           </div>
         </div>
+
+        <div className='dropdown'>
+          <NavLink to='/getting-started' className='nav-top-link'>Getting Started</NavLink>
+          <div className='dropdown-menu'>
+            <Link to='/puppy-raising'>Puppy Raising</Link>
+            <Link to='/puppy-sitting'>Puppy Sitting</Link>
+          </div>
+        </div>
         
-        <NavLink to='/getting-started'>Getting Started</NavLink>
         <NavLink to='/puppy-raisers'>Puppy Raisers</NavLink>
         <NavLink to='/contact-us'>Contact Us</NavLink>
       </div>

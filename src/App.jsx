@@ -8,6 +8,8 @@ import PuppyRaisers from './pages/PuppyRaisers'
 import ContactUs from './pages/ContactUs'
 import OurPups from './pages/OurPups'
 import OurLeaders from './pages/OurLeaders'
+import PuppySitting from './pages/PuppySitting'
+import PuppyRaising from './pages/PuppyRaising'
 
 function App() {
   return (
@@ -21,6 +23,10 @@ function App() {
         <Route path="/our-leaders" element={<OurLeaders />} />
 
         <Route path="/getting-started" element={<GettingStarted />} />
+        <Route path="/puppy-raising" element={<PuppyRaising />} />
+        <Route path="/puppy-sitting" element={<PuppySitting />} />
+
+
         <Route path="/puppy-raisers" element={<PuppyRaisers />} />
         <Route path="/contact-us" element={<ContactUs />} />
       </Routes>

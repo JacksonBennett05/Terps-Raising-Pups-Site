@@ -4,6 +4,7 @@
   background-color: white;
   display: flex;
   align-items: center;
+  z-index: 1000;
   justify-content: center;
   padding: 1rem 2rem;
 }

@@ -1,0 +1,84 @@
+.started {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: #ede8df;
+}
+
+.dot-img {
+  width: 100%;
+  height: 100vh;
+  display: block;
+}
+
+.overlay-panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 48%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.72);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 2rem;
+  box-sizing: border-box;
+}
+
+.volunteer-box {
+  width: 100%;
+  max-width: 520px;
+  text-align: center;
+  color: #222;
+}
+
+.volunteer-box h1 {
+  margin: 0 0 2rem 0;
+  font-size: 4rem;
+  letter-spacing: 0.35rem;
+  color: #e10600;
+  font-weight: 800;
+}
+
+.volunteer-info p {
+  font-size: 1.25rem;
+  line-height: 1.65;
+  margin-bottom: 2rem;
+}
+
+.volunteer-info a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.volunteer-note {
+  font-style: italic;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.volunteer-box h3 {
+  margin: 0 0 1.5rem 0;
+  font-size: 1.6rem;
+  letter-spacing: 0.18rem;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.role-btn {
+  background-color: #e10600;
+  color: white;
+  border: none;
+  padding: 1rem 2.75rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: 0.18rem;
+  cursor: pointer;
+}
