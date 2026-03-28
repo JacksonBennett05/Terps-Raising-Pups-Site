@@ -6,7 +6,7 @@ A student built mock website for Terps Raising Pups at the University of Marylan
 Clone the repository:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/JacksonBennett05/Terps-Raising-Pups-Site.git
 cd Terps-Raising-Pups-Site
 ```
 
