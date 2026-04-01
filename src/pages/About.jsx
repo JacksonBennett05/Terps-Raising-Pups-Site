@@ -1,6 +1,10 @@
 import './About.css'
+import { useNavigate } from 'react-router-dom'
+
 
 function About() {
+  const navigate = useNavigate()
+
   return (
     <main className="about-page">
       <img src="/halloween.png" alt="puppies" className="left-img" />
@@ -16,9 +20,11 @@ function About() {
           have found their careers. This makes us GDF’s second biggest college program and we couldn’t be more thankful 
           for the support we’ve received from University of Maryland and the Washington DC area GDF group
         </p>
-        <button>
-          Meet our Pups
-        </button>
+        <button
+            onClick={() => navigate('/our-pups')}
+          >
+            Meet Our Pups
+          </button>
       </div>
       <div className="second-row">
         <h2>WHY WE VOLUNTEER</h2>
