@@ -1,25 +1,21 @@
 import './OurPups.css'
 
-
-
-
-
 function OurPups() {
   const dogs = [
     {
      name: "Joey",
-     image: "/joey.png",
+     image: "/dogs/joey.png",
      description: "Joey is currently in training and learning the foundations for future service work.",
   
     }, 
     {
       name: "Hope",
-      image: "/hope.png",
+      image: "/dogs/hope.png",
       description: "Hope is working on obedience, socialization, and confidence in public settings.",
     },
     {
       name: "Tricky",
-      image: "/tricky.png",
+      image: "/dogs/tricky.png",
       description: "Tricky is developing the skills needed to move forward in her service dog journey.",
     },
   ]; 

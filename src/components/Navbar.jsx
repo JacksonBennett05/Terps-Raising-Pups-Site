@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className='navbar'>
       <div className='navbar-left'>
-        <img src='/logo.png' alt='TRP logo' className='navbar-logo' />
+        <img src='/trp/logo.png' alt='TRP logo' className='navbar-logo' />
       </div>
 
       <div className='navbar-center'>
@@ -32,8 +32,8 @@ function Navbar() {
       </div>
 
       <div className='navbar-right'>
-        <img src='/gdf.png' alt='GDF logo' className='navbar-logo-right' />
-        <img src='/avd.png' alt='AVD logo' className='navbar-logo-right' />
+        <img src='/trp/gdf.png' alt='GDF logo' className='navbar-logo-right' />
+        <img src='/trp/avd.png' alt='AVD logo' className='navbar-logo-right' />
       </div>
     </nav>
   )

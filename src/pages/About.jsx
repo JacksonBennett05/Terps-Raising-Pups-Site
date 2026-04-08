@@ -7,7 +7,7 @@ function About() {
 
   return (
     <main className="about-page">
-      <img src="/halloween.png" alt="puppies" className="left-img" />
+      <img src="/trp/halloween.png" alt="puppies" className="left-img" />
       <div className="right-side">
         <h2>About Us</h2>
         <p>

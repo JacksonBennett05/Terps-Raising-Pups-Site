@@ -7,10 +7,10 @@ function Home() {
   return (
     <main className="home-page">
       <div className="heading">
-        <img src="/puppies.png" alt="puppies" className="left-img" />
+        <img src="/trp/puppies.png" alt="puppies" className="left-img" />
 
         <div className="right-side">
-          <img src="/slogan.png" alt="slogan" className="slogan-img" />
+          <img src="/trp/slogan.png" alt="slogan" className="slogan-img" />
 
           <button
             className="apply-btn"
