@@ -1,5 +1,7 @@
 # Terps-Raising-Pups-Site
-A student built mock website for Terps Raising Pups at the University of Maryland, created with React and Vite.
+This project was created as a mock site for Terps Raising Pups, a student organization I am involved with at the University of Maryland.
+
+Terps Raising Pups is a a group of students that are volunteer puppy raisers and sitters working to raise and train future guide dogs for individuals with vision impairments. The Guide Dog Foundation (GDF) provides fully trained guide dogs to vision-impaired persons at no cost to them. GDF relies solely on donations and volunteered time and effort, and is an award-winning non-profit based in Long Island, New York. Terps Raising Pups also has raisers who are a part of a trial program through the Guide Foundation's sister program, America's VetDogs, to raise future PTSD service dogs for veterans, active-duty service members, and first responders with PTSD. ​
 
 ## Running the Site Locally
 
