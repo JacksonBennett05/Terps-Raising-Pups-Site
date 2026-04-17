@@ -5,18 +5,18 @@ function OurPups() {
     {
      name: "Joey",
      image: "/dogs/joey.png",
-     description: "Joey is currently in training and learning the foundations for future service work.",
+     description: "Joey is a 10 months old  yellow lab and currently training to be a Guide Dog.",
   
     }, 
     {
       name: "Hope",
       image: "/dogs/hope.png",
-      description: "Hope is working on obedience, socialization, and confidence in public settings.",
+      description: "Hope just turned 1 year old and is also training to be a Guide Dog.",
     },
     {
       name: "Tricky",
       image: "/dogs/tricky.png",
-      description: "Tricky is developing the skills needed to move forward in her service dog journey.",
+      description: "Tricky is a 10 month old Lab/Retriver mix training to be a Guide Dog.",
     },
   ]; 
 
