@@ -63,7 +63,7 @@
 }
 
 .navbar a.active {
-  border-bottom: 2px solid #e10600;
+  border-bottom: 3px solid #e10600;
   opacity: 1;
 }
 

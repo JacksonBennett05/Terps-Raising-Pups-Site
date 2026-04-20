@@ -1,7 +1,20 @@
-import { NavLink, Link } from 'react-router-dom'
+import { NavLink, Link, useLocation } from 'react-router-dom'
 import './Navbar.css'
 
 function Navbar() {
+  const location = useLocation()
+
+  const isAboutActive =
+    location.pathname === '/about' ||
+    location.pathname === '/our-pups' ||
+    location.pathname === '/our-leaders'
+
+  const isGettingStartedActive =
+    location.pathname === '/getting-started' ||
+    location.pathname === '/puppy-raising' ||
+    location.pathname === '/puppy-sitting'
+
+
   return (
     <nav className='navbar'>
       <div className='navbar-left'>
@@ -12,7 +25,7 @@ function Navbar() {
         <NavLink to='/'>Home</NavLink>
 
         <div className='dropdown'>
-          <NavLink to='/about' className='nav-top-link'>About</NavLink>
+          <NavLink to='/about' className={`nav-top-link ${isAboutActive ? 'active' : ''}`}>About</NavLink>
           <div className='dropdown-menu'>
             <Link to='/our-pups'>Our Pups</Link>
             <Link to='/our-leaders'>Our Leaders</Link>
@@ -20,7 +33,7 @@ function Navbar() {
         </div>
 
         <div className='dropdown'>
-          <NavLink to='/getting-started' className='nav-top-link'>Getting Started</NavLink>
+          <NavLink to='/getting-started' className={`nav-top-link ${isGettingStartedActive ? 'active' : ''}`}>Getting Started</NavLink>
           <div className='dropdown-menu'>
             <Link to='/puppy-raising'>Puppy Raising</Link>
             <Link to='/puppy-sitting'>Puppy Sitting</Link>
