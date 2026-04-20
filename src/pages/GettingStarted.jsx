@@ -6,7 +6,7 @@ function GettingStarted() {
 
   return (
     <main className="started">
-      <img src="/dogs/dot-testudo.png" alt="group" className="dot-img" />
+      <img src="/dogs/joey_hope.png" alt="group" className="dot-img" />
 
       <div className="overlay-panel">
         <div className="volunteer-box">
