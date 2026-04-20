@@ -10,6 +10,8 @@ import OurPups from './pages/OurPups'
 import OurLeaders from './pages/OurLeaders'
 import PuppySitting from './pages/PuppySitting'
 import PuppyRaising from './pages/PuppyRaising'
+import ImportantInfo from './pages/ImportantInfo'
+import Resources from './pages/Resources'
 
 function App() {
   return (
@@ -28,6 +30,9 @@ function App() {
 
 
         <Route path="/puppy-raisers" element={<PuppyRaisers />} />
+        <Route path="important-info" element={<ImportantInfo />} /> 
+        <Route path="resources" element={<Resources />} /> 
+
         <Route path="/contact-us" element={<ContactUs />} />
       </Routes>
       <Footer />

@@ -14,6 +14,10 @@ function Navbar() {
     location.pathname === '/puppy-raising' ||
     location.pathname === '/puppy-sitting'
 
+  const isPuppyRaiserActive =
+    location.pathname === '/puppy-raisers' ||
+    location.pathname === '/important-info' ||
+    location.pathname === '/resources'
 
   return (
     <nav className='navbar'>
@@ -39,8 +43,15 @@ function Navbar() {
             <Link to='/puppy-sitting'>Puppy Sitting</Link>
           </div>
         </div>
-        
-        <NavLink to='/puppy-raisers'>Puppy Raisers</NavLink>
+
+        <div className='dropdown'>
+          <NavLink to='/puppy-raisers' className={`nav-top-link ${isPuppyRaiserActive ? 'active' : ''}`}>Puppy Raisers</NavLink>
+          <div className='dropdown-menu'>
+            <Link to='/important-info'>Important Info</Link>
+            <Link to='/resources'>Resources</Link>
+          </div>
+        </div>
+
         <NavLink to='/contact-us'>Contact Us</NavLink>
       </div>
 
