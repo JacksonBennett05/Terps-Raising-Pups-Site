@@ -4,7 +4,6 @@ import Footer from './components/Footer'
 import Home from './pages/Home'
 import About from './pages/About'
 import GettingStarted from './pages/GettingStarted'
-import PuppyRaisers from './pages/PuppyRaisers'
 import ContactUs from './pages/ContactUs'
 import OurPups from './pages/OurPups'
 import OurLeaders from './pages/OurLeaders'
@@ -28,12 +27,11 @@ function App() {
         <Route path="/puppy-raising" element={<PuppyRaising />} />
         <Route path="/puppy-sitting" element={<PuppySitting />} />
 
-
-        <Route path="/puppy-raisers" element={<PuppyRaisers />} />
-        <Route path="important-info" element={<ImportantInfo />} /> 
         <Route path="resources" element={<Resources />} /> 
-
+        <Route path="important-info" element={<ImportantInfo />} /> 
         <Route path="/contact-us" element={<ContactUs />} />
+
+        
       </Routes>
       <Footer />
     </>
