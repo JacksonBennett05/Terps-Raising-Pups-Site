@@ -1,9 +1,9 @@
-import './PuppyRaising.css'
+import './RaisingSitting.css'
 
 function PuppyRaising() {
   return (
     <main className="raising">
-      <h1 className='pr-header'>What Is A Puppy Raiser</h1>
+      <h1 className='pr-header'>What Is A Puppy Raiser?</h1>
       <br></br>
       <div className='pr-row'>
         <div className='pr-left'>
