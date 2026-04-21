@@ -61,7 +61,7 @@ function PuppyRaising() {
             </a>
           {''}
         </p>
-        <h4>Prospective Puppy Raiser CheckList</h4>
+        <h2 className='pr-h2'>Prospective Puppy Raiser CheckList</h2>
         <i>
           If you're interested in becoming a puppy raiser, please use the list as a reference for where you are in the 
           process and what your next steps are. This list is a guideline. An Area Coordinator or Puppy Program Rep may 

@@ -11,7 +11,8 @@
   text-transform: uppercase;
 }
 
-.ps-h2 {
+.ps-h2,
+.pr-h2 {
   text-transform: uppercase;
 }
 
