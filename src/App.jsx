@@ -4,12 +4,10 @@ import Footer from './components/Footer'
 import Home from './pages/Home'
 import About from './pages/About'
 import GettingStarted from './pages/GettingStarted'
-import ContactUs from './pages/ContactUs'
 import OurPups from './pages/OurPups'
 import OurLeaders from './pages/OurLeaders'
 import PuppySitting from './pages/PuppySitting'
 import PuppyRaising from './pages/PuppyRaising'
-import ImportantInfo from './pages/ImportantInfo'
 import Resources from './pages/Resources'
 
 function App() {
@@ -27,9 +25,7 @@ function App() {
         <Route path="/puppy-raising" element={<PuppyRaising />} />
         <Route path="/puppy-sitting" element={<PuppySitting />} />
 
-        <Route path="resources" element={<Resources />} /> 
-        <Route path="important-info" element={<ImportantInfo />} /> 
-        <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/resources" element={<Resources />} />
 
         
       </Routes>
